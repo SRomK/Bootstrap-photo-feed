@@ -1,26 +1,27 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+![4Geeks Logo](https://4geeksacademy.com//images/4geeks-logo.png)
+# Instagram Photo Feed with Bootstrap
+## Owners:
+### 	- Sofia Romero
+### 	- Orealba Soriano
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+## Explicación del proceso 
 
-The most basic boilerplate for any 4Geeks Academy student using the [gitpod.io](gitpod.io) coding editor.
+En este proyecto aplicamos el framework Front-end de Bootstrap v5.1. Primero hemos creado un archivo `index.html` y luego pegamos el link de la stylesheet de Bootstrap en el head de nuestro `<html>`. A su vez enlazamos a nuestro `<head>` una stylesheet con nombre de archivo `main.css`
+con el que aplicamos los estilos necesarios a todos los `<tags>`.
 
-[![How to open html/css preview of my project in gitpod](https://github.com/4GeeksAcademy/Templates-Boilerplates/blob/master/assets/hello-html-intro.png?raw=true)](https://youtu.be/dfbDCMu_p-0)
+El proyecto consiste en imitar un feed de fotos de instagram utilizando Bootstrap. Para ello hemos estructurado el html con sus respectivos elementos `<div>` para realizar el "esqueleto" principal y asignamos a esos  `<div>` las clases de Bootstrap de `rows` y `columns`, con un contenedor de todo el contenido usando `<div class="container-fluid">`.
 
-## What to do next?
+Nuestro proyecto contiene:
 
-Create an `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+1. 		Header con logo y menu desplegable
+2. 		Pills (dos cuadrados)
+3. 	 	Dentro de cada pill el código de cada vista
+4. 		En primera pill: imagenes cuadradas estructuradas por filas y columnas a modo de galeria
+5. 		En segunda pill: 4 posts creados a partir de elementos Card de Bootstrap, cada uno con su imagen, texto del post, iconos estaticos y likes
 
+## Compilar el código
+Para compilar el código es necesario introducir el siguiente comando en la terminal:
 ```sh
 $ pip3 install flask && python3 server.py
 ```
 
-- You can create as many HTML files as you want
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```

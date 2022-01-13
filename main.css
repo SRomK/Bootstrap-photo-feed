@@ -1,0 +1,176 @@
+
+head{
+
+    display: flex;
+
+}
+
+.botonverde{
+
+    text-align: right;
+
+}
+
+.btn-primary {
+
+    width: 160px;
+
+    height: 35px;
+
+    background-color: #0e9f6e;
+
+    border: #0e9f6e;
+
+    padding-top: 3px;
+
+    margin: 10px;
+
+}
+
+
+
+.logocabeza {
+
+    width: 200px;
+
+    height: 50px;
+
+    margin: 5px;
+
+    margin-left: 20%;
+
+}
+
+
+
+.options{
+
+    margin-top: 7px;
+
+    padding-top: 3px;
+
+    border: white;
+
+    color: grey;
+
+    background-color: transparent;
+
+}
+
+.nav-pills{
+
+    color: grey;
+
+    background-color: white;
+
+    padding-left: 850px;
+
+}
+
+.nav-pills .nav-link {
+
+    color: grey;
+
+    background-color: white;
+
+
+
+}
+
+.rowSpacesFirst{
+
+    padding: 0px 0px 1px 0px;
+
+}
+
+.rowSpaces{
+
+    padding: 1px;
+
+}
+
+.colSpaces{
+
+    padding: 1px;
+
+}
+
+
+
+.publishbut{
+
+    background-color: #0e9f6e;
+
+    border: #0e9f6e;
+
+    width: 100px;
+
+    height: 35px;
+
+}
+
+.cancelbut{
+
+    background-color:  white;
+
+    color: grey;
+
+    border:1px solid grey;
+
+    width: 100px;
+
+    height: 35px;
+
+}
+
+.buttonicon1{
+
+    padding-left: 3%;
+
+    margin-top:  -3%;
+
+    border: grey;
+
+}
+
+.buttonicon2{
+
+    padding-left: 1%;
+
+    margin-top:  -3%;
+
+    border: white
+
+  
+
+}
+
+.icons{
+
+    display: flex;
+
+}
+
+
+
+.card{
+
+    padding: 5px;
+
+    margin: 25px;
+
+}
+
+.fondogris{
+
+background-color: lightgray;
+
+}
+
+.fecha{
+
+    color:gray;
+
+    text-align: right;
+
+}
